@@ -18,8 +18,9 @@ body{margin:0}
 img,video{display:block}
 
 /* slides one after another, a strip of background between them, no transitions */
-.book{width:min(100%,1440px);margin:0 auto;padding-bottom:0;display:grid;gap:clamp(20px,3vw,44px)}
-.hero{margin-bottom:calc(clamp(40px,6.5vw,95px) - clamp(20px,3vw,44px))}
+.book{width:min(100%,1440px);margin:0 auto;padding-bottom:0;display:grid;gap:clamp(8px,3.05vw,44px)}
+.hero{margin-bottom:calc(clamp(40px,6.5vw,95px) - clamp(8px,3.05vw,44px))}
+@media (max-width:760px){.hero{min-height:0!important;padding:9vw 0 13vw!important;margin-bottom:0}.stage{width:94%!important}.hint .lbl{font-size:4.3vw!important}.hint svg{width:7vw!important}.props img[src*="u_photo3"],.props img[src*="u_photo4"],.props img[src*="u_sticky"],.props img[src*="clip2"]{display:none}}
 .slide{position:relative;margin:0;line-height:0}
 
 /* theatre curtains over the side margins; they reach a little onto the slides */
