@@ -118,7 +118,7 @@ html[data-edge=board] .curtain.right{background:url(assets/edges/right.webp) lef
 .hero{z-index:0;overflow-x:clip;overflow-y:visible}
 .slide{z-index:auto}
 .hero{filter:url(#gmap) contrast(1.13)}
-.stage{position:relative;width:min(86%,calc((100svh - clamp(200px,27vh,290px)) * 2584 / 1796));aspect-ratio:2584/1796}
+.stage{position:relative;width:min(86%,max(80%,calc((100svh - clamp(200px,27vh,290px)) * 2584 / 1796)));aspect-ratio:2584/1796}
 .sheet{position:absolute;inset:0;z-index:2;cursor:pointer;-webkit-tap-highlight-color:transparent;
   transition:transform .45s cubic-bezier(.25,1.4,.45,1)}
 .sheet img{position:absolute;inset:0;width:100%;height:100%;user-select:none;-webkit-user-drag:none}
